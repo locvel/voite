@@ -1,0 +1,38 @@
+# Auto-label pull requests based on file patterns
+
+'documentation':
+  - '**/*.md'
+  - 'docs/**/*'
+
+'dependencies':
+  - 'pubspec.yaml'
+  - 'pubspec.lock'
+  - '.github/workflows/dependabot.yml'
+
+'android':
+  - 'android/**/*'
+
+'ios':
+  - 'ios/**/*'
+
+'core':
+  - 'lib/core/**/*'
+
+'features':
+  - 'lib/features/**/*'
+
+'data':
+  - 'lib/data/**/*'
+
+'tests':
+  - 'test/**/*'
+
+'ci/cd':
+  - '.github/workflows/**/*'
+
+'assets':
+  - 'assets/**/*'
+
+'security':
+  - 'SECURITY.md'
+  - 'docs/PRIVACY_SECURITY_BASELINE.md'
