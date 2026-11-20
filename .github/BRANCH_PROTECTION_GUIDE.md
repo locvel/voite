@@ -17,7 +17,7 @@ To complete the professional repository setup, protect your `main` branch from a
 
 ✅ **Require status checks to pass before merging**
 - Require branches to be up to date before merging
-- Add status check: `build` (from your CI workflow)
+- Add status checks: `analyze-and-test`, `Analyze (java)`, `Analyze (swift)` (from your CI workflows)
 
 ✅ **Require conversation resolution before merging**
 

@@ -2,13 +2,13 @@
 # These users/teams will be automatically requested for review when someone opens a pull request
 
 # Default owner for everything in the repo
-* @locvel
+* @aashish254
 
 # Specific ownership for critical areas
-/ios/ @locvel
-/android/ @locvel
-/lib/core/ @locvel
-/lib/data/ @locvel
-/.github/ @locvel
-/docs/PRIVACY_SECURITY_BASELINE.md @locvel
-/docs/privacy-policy.md @locvel
+/ios/ @aashish254
+/android/ @aashish254
+/lib/core/ @aashish254
+/lib/data/ @aashish254
+/.github/ @aashish254
+/docs/PRIVACY_SECURITY_BASELINE.md @aashish254
+/docs/privacy-policy.md @aashish254

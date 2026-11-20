@@ -130,3 +130,22 @@ you have the right to submit it, and that it is licensed under the repository's
 
 Open a GitHub issue for product or contribution questions, or email
 **hello.locvel@gmail.com** for private matters.
+
+
+## AI-Assisted Development
+
+Voite welcomes AI-assisted contributions as part of our commitment to modern development practices. When using AI coding assistants (GitHub Copilot, Claude, GPT-4, etc.), contributors should:
+
+**Attribution**: Disclose AI use in pull requests when AI generated substantial code (e.g., "Implemented with assistance from [tool name]").
+
+**Review Responsibility**: You remain responsible for all submitted code. Review AI suggestions for correctness, security, performance, and alignment with project standards.
+
+**Licensing Compliance**: Ensure AI-generated code complies with this project's MIT License and does not introduce incompatible licenses or third-party IP.
+
+**Privacy**: Do not input sensitive data (API keys, user data, private information) into AI tools. Use placeholder values during development.
+
+**Testing**: AI-generated code must pass all tests and meet the same quality standards as manually written code.
+
+**Learning**: Use AI as a tool to enhance productivity, not replace understanding. Ensure you comprehend the code you submit.
+
+For org-wide AI policies, see [AI_POLICY.md](https://github.com/locvel/.github/blob/main/.github/AI_POLICY.md).
