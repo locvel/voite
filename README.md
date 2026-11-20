@@ -25,9 +25,12 @@ speech recognition runs on the device with
 [sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx). Audio is never uploaded for
 transcription.
 
-| Record | Home | Daily prompt |
+### Screenshots
+
+#### Android
+| Record | Home | Daily Prompt |
 | --- | --- | --- |
-| <img src="docs/screenshots/record.png" width="240" alt="Voite record screen" /> | <img src="docs/screenshots/home.png" width="240" alt="Voite home screen" /> | <img src="docs/screenshots/daily-prompt.png" width="240" alt="Voite daily prompt screen" /> |
+| <img src="docs/screenshots/android-record.png" width="240" alt="Voite record screen on Android" /> | <img src="docs/screenshots/android-home.png" width="240" alt="Voite home screen on Android" /> | <img src="docs/screenshots/android-prompt.png" width="240" alt="Voite daily prompt screen on Android" /> |
 
 ## Features
 
