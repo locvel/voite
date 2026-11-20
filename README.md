@@ -27,6 +27,16 @@ transcription.
 
 ### Screenshots
 
+#### iPhone 17 Pro Max
+| Record | Home | Daily Prompt |
+| --- | --- | --- |
+| <img src="docs/screenshots/iphone-record.png" width="240" alt="Voite record screen on iPhone" /> | <img src="docs/screenshots/iphone-home.png" width="240" alt="Voite home screen on iPhone" /> | <img src="docs/screenshots/iphone-prompt.png" width="240" alt="Voite daily prompt screen on iPhone" /> |
+
+#### iPad Pro 13-inch
+| Record | Home | Daily Prompt |
+| --- | --- | --- |
+| <img src="docs/screenshots/ipad-record.png" width="320" alt="Voite record screen on iPad" /> | <img src="docs/screenshots/ipad-home.png" width="320" alt="Voite home screen on iPad" /> | <img src="docs/screenshots/ipad-prompt.png" width="320" alt="Voite daily prompt screen on iPad" /> |
+
 #### Android
 | Record | Home | Daily Prompt |
 | --- | --- | --- |
