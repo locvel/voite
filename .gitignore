@@ -1,0 +1,72 @@
+# Flutter and Dart generated files
+.dart_tool/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+build/
+coverage/
+ios/Flutter/ephemeral/
+
+# Android local build state and machine-specific SDK paths
+android/.gradle/
+android/captures/
+android/local.properties
+
+# iOS generated build state
+ios/Flutter/.last_build_id
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+ios/Flutter/ephemeral/
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/.symlinks/
+ios/Pods/
+ios/Runner/GeneratedPluginRegistrant.*
+
+# Local FVM SDK link, editor files, and OS metadata
+.fvm/
+.idea/
+*.iml
+.DS_Store
+
+# Release signing material — never commit these
+android/key.properties
+android/app/upload-keystore.jks
+*.jks
+
+# Build artifacts belong on GitHub Releases, not in the source tree
+*.apk
+*.aab
+
+# Expo preview dependencies (separate from the Flutter app)
+/expo-preview/node_modules/
+/expo-preview/.expo/
+/expo-preview/dist/
+
+# Local-only distribution artifacts and internal notes
+dist/
+internal/
+
+# Additional signing and environment material
+*.keystore
+*.p12
+*.p8
+*.mobileprovision
+*.pem
+.env
+.env.*
+**/google-services.json
+**/GoogleService-Info.plist
+
+# Editor and OS noise
+.vscode/
+xcuserdata/
+*.xcuserstate
+*.log
+
+# Generated Android plugin registration
+android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
+
+# Local iOS development team override
+ios/Flutter/Local.xcconfig

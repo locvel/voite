@@ -1,0 +1,4 @@
+// Optional local signing settings for iOS device builds.
+// Copy this file to Local.xcconfig, set your Apple development team, and keep
+// the copy out of source control. Local.xcconfig is gitignored.
+DEVELOPMENT_TEAM = YOUR_APPLE_TEAM_ID

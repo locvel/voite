@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Voite Privacy Policy - On-device voice recording and transcription">
+    <title>Voite Privacy Policy</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #fafafa;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            font-size: 2.2em;
+            margin-bottom: 0.5em;
+            color: #1a1a1a;
+            font-weight: 700;
+        }
+        h2 {
+            font-size: 1.5em;
+            margin-top: 1.5em;
+            margin-bottom: 0.75em;
+            color: #2a2a2a;
+            font-weight: 600;
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 0.3em;
+        }
+        p {
+            margin-bottom: 1em;
+            color: #555;
+        }
+        ul {
+            margin-left: 1.5em;
+            margin-bottom: 1em;
+        }
+        li {
+            margin-bottom: 0.5em;
+            color: #555;
+        }
+        strong {
+            color: #333;
+            font-weight: 600;
+        }
+        .last-updated {
+            color: #777;
+            font-size: 0.9em;
+            margin-bottom: 2em;
+        }
+        .summary {
+            background: #f0f4ff;
+            border-left: 4px solid #4a90e2;
+            padding: 1.2em;
+            margin-bottom: 2em;
+            border-radius: 4px;
+        }
+        .summary p {
+            color: #333;
+            margin-bottom: 0;
+        }
+        @media (max-width: 768px) {
+            .container {
+                padding: 24px;
+            }
+            h1 {
+                font-size: 1.8em;
+            }
+            h2 {
+                font-size: 1.3em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Voite Privacy Policy</h1>
+        <p class="last-updated">Last updated: November 19, 2026</p>
+
+        <div class="summary">
+            <p><strong>Summary:</strong> Voite records audio and creates transcripts on your device. It does not require an account and does not send your recordings or transcripts to our servers. An internet connection is used only when you choose to download an English Whisper transcription model. Audio can leave the device if you choose to export or share it through your device's sharing features.</p>
+        </div>
+
+        <h2>Who operates the app</h2>
+        <p>Voite is published as an open-source project. For privacy questions or support, please visit our GitHub repository.</p>
+
+        <h2>Information processed on your device</h2>
+        <ul>
+            <li><strong>Audio:</strong> When you start a recording, the app captures microphone audio as a 16 kHz mono WAV file and stores it in the app's private storage. The app does not record phone calls.</li>
+            <li><strong>Transcripts:</strong> If you install a model, speech recognition runs entirely on the device. Transcript text and timestamps are stored in the app's encrypted local database.</li>
+            <li><strong>Library information:</strong> Recording titles, dates, durations, favorite status, and app preferences are kept in local app storage so the Library can work.</li>
+            <li><strong>Model files:</strong> When you request a model download, the model files are downloaded to the device and verified before use. Models are not bundled in the app install.</li>
+        </ul>
+        <p>The WAV file is stored in the operating system's app-private storage, protected by Android's app sandbox and device encryption, and iOS file-level Data Protection. Files are excluded from backup. The local database is encrypted with SQLCipher, and its key is held in the operating system's secure credential store.</p>
+
+        <h2>Network access and service providers</h2>
+        <p>The app uses internet access when you choose to download a model. It requests model file listings and files from Hugging Face-hosted repositories. Those services may process standard connection information, such as an IP address and request metadata, under their own privacy terms.</p>
+        <p>The app does not include your audio, transcript, name, email, or account identifier in those model requests. The app does not include advertising, analytics, account, cloud-sync, or crash-reporting services. Transcription does not need an internet connection after a model has been installed.</p>
+
+        <h2>Sharing and export</h2>
+        <p>Audio and transcript data stay in the app unless you choose an export or share action. When you share, the operating system opens its share sheet and the destination you select receives the content you chose. The destination's own privacy policy then applies.</p>
+
+        <h2>Permissions</h2>
+        <ul>
+            <li><strong>Microphone:</strong> Needed only to create a recording after you press Record.</li>
+            <li><strong>Internet and network state:</strong> Used to download a model when you request one and to check that the connection is Wi-Fi.</li>
+            <li><strong>Foreground microphone service and notifications (Android):</strong> Used to keep an active recording visible and allow you to stop it while the app is in the background.</li>
+        </ul>
+        <p>The app does not request contacts, location, camera, storage, or phone-call recording access. Recording laws differ by country and region. Before recording, tell everyone present and obtain any consent required by local law.</p>
+
+        <h2>Retention and deletion</h2>
+        <p>Recordings and transcripts remain on the device until you delete them. Moving a recording to Recently Deleted starts a 30-day retention period; the app automatically removes expired items when it next opens. You can restore an item during that period or permanently delete it sooner.</p>
+        <p>Removing the app also removes its private local data, subject to the platform's normal uninstall behavior. Android app backup is disabled. On iOS, the database and recording files are excluded from device backup.</p>
+
+        <h2>Children</h2>
+        <p>Voite is a general-purpose audio utility and is not designed specifically for children.</p>
+
+        <h2>Changes and contact</h2>
+        <p>We will update this policy if the app's data practices change. For privacy questions, please open an issue on our GitHub repository.</p>
+    </div>
+</body>
+</html>

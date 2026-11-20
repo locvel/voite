@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Voite Privacy Policy — Locvel</title>
+  <meta name="description" content="How Voite stores recordings, transcripts, and diary entries on your device.">
+  <style>
+    :root { color-scheme: light; --cream:#fbf3e4; --paper:#fffdf8; --ink:#1d1912; --muted:#5f574b; --orange:#e78312; --line:#eadcc8; }
+    * { box-sizing: border-box; }
+    body { margin:0; background:var(--cream); color:var(--ink); font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; }
+    header { padding:56px 22px 28px; text-align:center; }
+    header img { width:84px; height:84px; border-radius:22px; }
+    header h1 { margin:18px 0 6px; font-size:2.1rem; letter-spacing:-0.03em; }
+    header p { margin:0; color:var(--muted); }
+    main { max-width:760px; margin:0 auto; padding:0 22px 64px; }
+    article { background:var(--paper); border:1px solid var(--line); border-radius:22px; padding:34px 30px; box-shadow:0 18px 50px rgba(80,55,25,.06); }
+    h2 { margin:34px 0 10px; font-size:1.2rem; }
+    h2:first-of-type { margin-top:0; }
+    p { margin:0 0 14px; }
+    ul { margin:0 0 16px; padding-left:22px; }
+    li { margin:6px 0; }
+    strong { font-weight:700; }
+    .meta { color:var(--muted); font-size:.94rem; }
+    .badge { display:inline-block; padding:4px 10px; border-radius:999px; background:#f7e6c8; color:#8a4a00; font-size:.82rem; font-weight:700; letter-spacing:.02em; }
+    a { color:#9a4e00; }
+    footer { max-width:760px; margin:0 auto; padding:0 22px 48px; color:var(--muted); font-size:.92rem; }
+    @media (max-width:560px) { article { padding:26px 20px; border-radius:18px; } header { padding-top:40px; } }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="icon.png" alt="Voite app icon">
+    <h1>Voite Privacy Policy</h1>
+    <p>Private, offline voice recorder and diary</p>
+  </header>
+  <main>
+    <article>
+      <p class="meta"><span class="badge">Effective November 19, 2026</span></p>
+      <p>Voite is a private voice recorder and diary published by <strong>Locvel</strong>. Your recordings, transcripts, and diary entries are stored on your own device. Voite has no account system and does not send your audio or transcripts to a Voite server.</p>
+
+      <h2>What stays on your device</h2>
+      <p>The following are stored inside the app’s private storage on your phone:</p>
+      <ul>
+        <li>Recordings and their audio files</li>
+        <li>Transcripts and diary entries</li>
+        <li>Recording labels, prompts, and preferences</li>
+        <li>Downloaded offline transcription models</li>
+        <li>Reminder settings</li>
+      </ul>
+      <p>The app’s database is encrypted at rest with SQLCipher. The encryption key is kept in the device’s secure storage (Android Keystore / iOS Keychain). Audio is stored as WAV files in the app’s private storage, but is not encrypted separately by Voite. The operating system applies its app-storage protections.</p>
+
+      <h2>Network access</h2>
+      <p>Voite does not upload recordings or transcripts. The app uses the internet only in these cases:</p>
+      <ul>
+        <li><strong>Model downloads.</strong> If you choose to download an offline transcription model, the files are downloaded from Hugging Face (<code>huggingface.co</code>). Hugging Face receives the request and standard connection information such as your IP address. Your voice and transcripts are not included.</li>
+        <li><strong>Sharing and exporting.</strong> When you share a recording, a diary PDF, or text, the destination app you pick in the system share sheet receives the content you selected.</li>
+      </ul>
+      <p>Voite contains no analytics, advertising, crash-reporting, or tracking SDKs.</p>
+
+      <h2>Permissions</h2>
+      <ul>
+        <li><strong>Microphone</strong> — used only while you are recording something you started. Voite never starts a recording on its own.</li>
+        <li><strong>Notifications</strong> — used for the optional daily reminder and, on Android, the ongoing recording notification.</li>
+        <li><strong>Foreground service (Android)</strong> — keeps an active recording visible and running if you switch apps.</li>
+        <li><strong>Network</strong> — used for the optional model downloads described above.</li>
+      </ul>
+      <p>Voite does not request contacts, location, photos, camera, or call logs.</p>
+
+      <h2>Transcription</h2>
+      <p>Speech recognition runs on your phone with sherpa-onnx and Whisper after a model has been downloaded. Your voice is not uploaded for transcription.</p>
+
+      <h2>Deletion</h2>
+      <ul>
+        <li>Deleting a diary entry removes its transcript while keeping the audio.</li>
+        <li>Deleting a recording removes its audio and transcript.</li>
+        <li><strong>Settings → Delete all recordings</strong> removes saved audio, transcripts, and diary entries from your phone. Downloaded models and app settings remain.</li>
+      </ul>
+      <p>There is no server-side copy to delete.</p>
+
+      <h2>Recording other people</h2>
+      <p>Recording laws differ by location. Make sure everyone you record knows, and get any consent required where you are.</p>
+
+      <h2>Children</h2>
+      <p>Voite is not directed at children under 13. The app does not collect personal information from anyone.</p>
+
+      <h2>Changes</h2>
+      <p>If this policy changes, the effective date above will be updated. Material changes will be noted in the app’s release notes.</p>
+
+      <h2>Contact</h2>
+      <p>Questions about this policy: <a href="mailto:hello.locvel@gmail.com">hello.locvel@gmail.com</a>.</p>
+      <p>Voite is made by <a href="https://github.com/locvel">Locvel</a>. The source code is available at <a href="https://github.com/locvel/voite">github.com/locvel/voite</a>.</p>
+      <p class="meta">This policy is also available inside the app under <strong>Settings → Privacy</strong>.</p>
+    </article>
+  </main>
+  <footer>
+    <p>Locvel · <a href="index.html">Voite home</a> · <a href="https://github.com/locvel/voite">Source</a></p>
+  </footer>
+</body>
+</html>
