@@ -15,6 +15,17 @@
   <img src="https://img.shields.io/badge/Flutter-3.47.9-02569B?logo=flutter" alt="Flutter 3.47.9" />
 </p>
 
+<p align="center">
+  <a href="https://github.com/locvel/voite/releases/latest/download/app-release.apk">
+    <img src="https://img.shields.io/badge/Download_for_Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Download for Android" />
+  </a>
+  <a href="https://github.com/locvel/voite/releases/latest">
+    <img src="https://img.shields.io/badge/Download_for_iPhone_&_iPad-000000?style=for-the-badge&logo=apple&logoColor=white" alt="Download for iPhone & iPad" />
+  </a>
+</p>
+
+---
+
 Voite is a Flutter app for capturing voice notes, lectures, meetings, and
 passing ideas. Recordings, transcripts, and diary entries stay in the app's
 private storage on the phone. There is no account, advertising, analytics,
@@ -75,23 +86,31 @@ the [source Markdown](docs/privacy-policy.md). The
 [privacy and security baseline](docs/PRIVACY_SECURITY_BASELINE.md) documents the
 threat model and store-review considerations.
 
+## Download
+
+### 📱 Android (Phone & Tablet)
+
+**[⬇️ Download APK (96.5 MB)](https://github.com/locvel/voite/releases/latest/download/app-release.apk)**
+
+Direct download - no Google account or Play Store required. Compatible with Android 11+ (API 30) devices with arm64-v8a processors.
+
+### 🍎 iPhone & iPad
+
+**[📦 View Releases](https://github.com/locvel/voite/releases/latest)** 
+
+iOS builds require Xcode and your own Apple Developer signing certificate. Download the source code, open in Xcode, select your development team, and build to your device.
+
+**Requirements:**
+- iOS 15.0 or later
+- Universal app: works on iPhone and iPad
+- Supports portrait and landscape orientations
+
+---
+
 ## Status
 
 Voite is at **1.0.0** (`com.locvel.voite`). Store listings are in preparation.
 The source is open for review and contributions.
-
-### Download for Android
-
-**Direct APK:** Download the latest signed release APK directly from
-[GitHub Releases](https://github.com/locvel/voite/releases/latest).
-
-The APK is signed and ready to install on Android 11+ (API 30) devices. No Google
-account or Play Store needed.
-
-### iOS
-
-iOS builds require Xcode and your own Apple Developer signing team. No pre-built
-iOS binary is distributed. Clone the repository and build locally.
 
 ### Platform Requirements
 
