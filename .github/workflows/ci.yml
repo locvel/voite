@@ -52,7 +52,6 @@ jobs:
           flags: unittests
           name: codecov-voite
           fail_ci_if_error: false
-          token: ${{ secrets.CODECOV_TOKEN }}
 
   build-android:
     runs-on: ubuntu-latest
