@@ -96,14 +96,46 @@ Direct download - no Google account or Play Store required. Compatible with Andr
 
 ### 🍎 iPhone & iPad
 
-**[📦 View Releases](https://github.com/locvel/voite/releases/latest)** 
+**Easy Installation with AI Assistant (Recommended)**
 
-iOS builds require Xcode and your own Apple Developer signing certificate. Download the source code, open in Xcode, select your development team, and build to your device.
+Don't have Xcode experience? Use an AI coding assistant to build and install Voite automatically!
 
-**Requirements:**
-- iOS 15.0 or later
-- Universal app: works on iPhone and iPad
-- Supports portrait and landscape orientations
+#### What You Need:
+- Mac computer with macOS
+- iPhone/iPad connected via USB
+- [Antigravity](https://antigravity.dev), [Cursor](https://cursor.com), [Windsurf](https://codeium.com/windsurf), or [Kiro](https://kiro.dev) IDE installed
+- Apple ID (free)
+
+#### Steps:
+
+1. **Download source code** from [latest release](https://github.com/locvel/voite/releases/latest) (Download the `Source code (zip)`)
+2. **Unzip the folder** to your Mac
+3. **Open the folder** in your AI IDE (Antigravity/Cursor/Windsurf/Kiro)
+4. **Paste this prompt** into the AI assistant:
+
+```
+Build and install this Flutter app on my connected iPhone/iPad:
+
+1. Check if FVM and Flutter are installed, if not, install them
+2. Run `fvm install` to get the correct Flutter version
+3. Run `fvm flutter pub get` to install dependencies
+4. Open ios/Runner.xcworkspace in Xcode
+5. Help me select my development team (my Apple ID)
+6. Build and run on my connected device
+
+Walk me through each step and fix any errors automatically.
+```
+
+5. **Follow the AI's instructions** - it will set everything up for you!
+6. **Trust the certificate** on your iPhone: Settings → General → VPN & Device Management → Trust your Apple ID
+
+**That's it!** The AI assistant handles all the technical setup.
+
+---
+
+**Manual Installation (Advanced Users)**
+
+If you prefer manual setup, see the [Building](#building) section below for detailed Xcode instructions.
 
 ---
 
