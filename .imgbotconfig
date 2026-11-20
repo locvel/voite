@@ -1,0 +1,12 @@
+{
+  "schedule": "weekly",
+  "ignoredFiles": [
+    "**/*.svg",
+    "**/voite_app_icon.png"
+  ],
+  "aggressiveCompression": false,
+  "compressWiki": false,
+  "minKBReduced": 10,
+  "prTitle": "🖼️ Optimize images",
+  "prBody": "Beep boop! ImgBot optimized these images to reduce file size while maintaining quality. Total size reduced: {optimization}."
+}

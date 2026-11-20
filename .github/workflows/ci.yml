@@ -42,8 +42,17 @@ jobs:
       - name: Analyze
         run: flutter analyze
 
-      - name: Run tests
-        run: flutter test
+      - name: Run tests with coverage
+        run: flutter test --coverage
+
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v4
+        with:
+          files: ./coverage/lcov.info
+          flags: unittests
+          name: codecov-voite
+          fail_ci_if_error: false
+          token: ${{ secrets.CODECOV_TOKEN }}
 
   build-android:
     runs-on: ubuntu-latest
