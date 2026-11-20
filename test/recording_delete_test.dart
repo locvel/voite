@@ -2,9 +2,9 @@ import 'dart:io';
 
 import 'package:drift/native.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:voicerecorder/data/database/voice_database.dart';
-import 'package:voicerecorder/data/repositories/local_repositories.dart';
-import 'package:voicerecorder/domain/models/transcript_segment.dart';
+import 'package:voite/data/database/voice_database.dart';
+import 'package:voite/data/repositories/local_repositories.dart';
+import 'package:voite/domain/models/transcript_segment.dart';
 
 void main() {
   late VoiceDatabase database;

@@ -8,8 +8,6 @@ All notable changes to Voite are documented here. The format follows
 
 ### Fixed
 
-- Navigation bar indices now correctly align with 4-tab structure after moving
-  Record to full-screen route (Prompt is index 2, Settings is index 3).
 - Removed unused imports of app_navigation.dart from screen files.
 - Updated navigation tests to reflect persistent Record button visibility.
 

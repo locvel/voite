@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:voicerecorder/domain/models/recording_details.dart';
-import 'package:voicerecorder/features/home/home_data.dart';
-import 'package:voicerecorder/features/home/home_screen.dart';
+import 'package:voite/domain/models/recording_details.dart';
+import 'package:voite/features/home/home_data.dart';
+import 'package:voite/features/home/home_screen.dart';
 
 RecordingSummary _summary({String id = 'r1', String title = 'Voice note'}) =>
     RecordingSummary(

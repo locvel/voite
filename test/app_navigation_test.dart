@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:voicerecorder/core/widgets/app_navigation.dart';
+import 'package:voite/core/widgets/app_navigation.dart';
 
 Future<void> _pumpNav(WidgetTester tester, int selectedIndex) async {
   await tester.pumpWidget(

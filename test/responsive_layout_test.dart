@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:voicerecorder/core/widgets/responsive_layout.dart';
+import 'package:voite/core/widgets/responsive_layout.dart';
 
 void main() {
   group('ResponsiveBreakpoints', () {

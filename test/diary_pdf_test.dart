@@ -1,7 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:voicerecorder/domain/models/recording_details.dart';
-import 'package:voicerecorder/domain/models/transcript_segment.dart';
-import 'package:voicerecorder/features/diary/diary_pdf.dart';
+import 'package:voite/domain/models/recording_details.dart';
+import 'package:voite/domain/models/transcript_segment.dart';
+import 'package:voite/features/diary/diary_pdf.dart';
 
 RecordingDetails _entry({
   required String id,

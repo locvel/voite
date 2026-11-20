@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:voicerecorder/core/storage/storage_policy.dart';
+import 'package:voite/core/storage/storage_policy.dart';
 
 void main() {
   const policy = StoragePolicy();
