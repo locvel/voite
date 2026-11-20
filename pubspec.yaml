@@ -14,7 +14,7 @@ dependencies:
   flutter:
     sdk: flutter
   sherpa_onnx: 2.0.1
-  record: 7.1.2
+  record: 7.2.0
   just_audio: 0.10.6
   drift: 2.35.4
   # SQLCipher's Drift executor is an upstream Git package. This replaces
@@ -26,20 +26,20 @@ dependencies:
       ref: a745ade989e89f88d91663a0a34695fa943a50b0
   flutter_riverpod: 3.5.0
   riverpod_annotation: 4.0.8
-  go_router: 18.1.3
+  go_router: 18.1.4
   dio: 5.11.1
   flutter_secure_storage: 11.2.0
   sqflite_sqlcipher: 3.4.1
   flutter_foreground_task: 11.0.3
-  flutter_local_notifications: 21.0.0
+  flutter_local_notifications: 23.0.3
   audio_session: 0.2.4
   path_provider: 2.1.6
   path: 1.9.1
   crypto: 3.0.8
-  connectivity_plus: 7.3.1
+  connectivity_plus: 7.3.2
   uuid: 4.6.0
   video_player: ^2.10.0
-  pdf: ^3.12.0
+  pdf: ^3.13.1
   share_plus: ^13.3.1
   timezone: ^0.11.2
   flutter_timezone: ^5.1.1
