@@ -29,6 +29,26 @@
 
 ---
 
+## 📺 Video Tutorial
+
+Watch our complete tutorial on how to use Voite:
+
+<p align="center">
+  <a href="https://youtu.be/El_ou_v5tWA">
+    <img src="https://img.youtube.com/vi/El_ou_v5tWA/maxresdefault.jpg" width="600" alt="Voite Tutorial Video" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://youtu.be/El_ou_v5tWA">
+    <img src="https://img.shields.io/badge/Watch_on-YouTube-red?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch on YouTube" />
+  </a>
+</p>
+
+Learn how to record, transcribe, and manage your voice notes with Voite's privacy-first approach.
+
+---
+
 Voite is a Flutter app for capturing voice notes, lectures, meetings, and
 passing ideas. Recordings, transcripts, and diary entries stay in the app's
 private storage on the phone. There is no account, advertising, analytics,
