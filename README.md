@@ -114,16 +114,54 @@ Don't have Xcode experience? Use an AI coding assistant to build and install Voi
 4. **Paste this prompt** into the AI assistant:
 
 ```
-Build and install this Flutter app on my connected iPhone/iPad:
+I need to build and install this Voite Flutter app on my iPhone/iPad. Please follow these steps carefully and explain what you're doing at each stage:
 
-1. Check if FVM and Flutter are installed, if not, install them
-2. Run `fvm install` to get the correct Flutter version
-3. Run `fvm flutter pub get` to install dependencies
-4. Open ios/Runner.xcworkspace in Xcode
-5. Help me select my development team (my Apple ID)
-6. Build and run on my connected device
+PREREQUISITES CHECK:
+1. First, check if Homebrew is installed. If not, guide me to install it from brew.sh
+2. Check if FVM (Flutter Version Manager) is installed. If not, install it via: brew tap leoafarias/fvm && brew install fvm
+3. Verify the workspace contains a .fvmrc or .tool-versions file specifying Flutter 3.47.9
+4. Run `fvm install` to download the correct Flutter version (3.47.9)
+5. Verify Flutter installation by running `fvm flutter --version`
 
-Walk me through each step and fix any errors automatically.
+DEPENDENCY SETUP:
+6. Run `fvm flutter pub get` to install all Dart/Flutter dependencies
+7. If any dependency errors occur, run `fvm flutter pub upgrade` and retry
+8. Verify ios/Podfile exists
+9. Navigate to the ios/ directory and run `pod install` to install iOS native dependencies
+
+XCODE CONFIGURATION:
+10. Check that Xcode is installed (run `xcode-select -p` to verify)
+11. Open the Xcode workspace: `open ios/Runner.xcworkspace` (NOT Runner.xcodeproj)
+12. In Xcode, go to Runner (left sidebar) → Signing & Capabilities tab
+13. Guide me to select my Apple ID as the Development Team (I'll need to add my Apple ID in Xcode → Settings → Accounts if not already added)
+14. Ensure "Automatically manage signing" is checked
+15. Verify the Bundle Identifier is set correctly (com.locvel.voite)
+
+DEVICE CONNECTION:
+16. Verify my iPhone/iPad is connected via USB cable
+17. Run `xcrun simctl list devices` OR `idevice_id -l` to confirm device is detected
+18. In Xcode, select my physical device from the device dropdown (top bar, next to Run button)
+19. If device shows as "Unavailable", guide me to trust this Mac on my iPhone: Settings → General → VPN & Device Management
+
+BUILD AND INSTALL:
+20. Run the build command: `fvm flutter run -d <device-id>` OR use Xcode's Run button (⌘R)
+21. Monitor the build output for any errors
+22. If code signing errors occur, verify my Apple ID has the necessary permissions
+23. Wait for the app to install on my device (this may take 3-5 minutes for first build)
+24. Once installed, if the app crashes or shows "Untrusted Developer", guide me to trust my certificate: Settings → General → VPN & Device Management → Developer App → Trust
+
+POST-INSTALLATION:
+25. Verify the app launches successfully on my device
+26. If any errors occur at ANY step, stop, explain the error in plain English, and provide the exact fix
+
+IMPORTANT RULES:
+- Explain each step BEFORE executing it
+- Show me the exact commands you're running
+- If something fails, don't skip it - debug it with me
+- Confirm each major step completed successfully before moving to the next
+- If you need information from me (like my Apple ID), ask clearly
+
+Please start now and guide me through the entire process step-by-step.
 ```
 
 5. **Follow the AI's instructions** - it will set everything up for you!
