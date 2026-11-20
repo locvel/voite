@@ -10,9 +10,12 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/locvel/voite/actions/workflows/ci.yml"><img src="https://github.com/locvel/voite/actions/workflows/ci.yml/badge.svg" alt="CI status" /></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-orange.svg" alt="MIT License" /></a>
-  <img src="https://img.shields.io/badge/Flutter-3.47.9-02569B?logo=flutter" alt="Flutter 3.47.9" />
+  <a href="https://github.com/locvel/voite/releases/latest"><img src="https://img.shields.io/github/v/release/locvel/voite?style=flat-square&color=orange" alt="Latest Release" /></a>
+  <a href="https://github.com/locvel/voite/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/locvel/voite/ci.yml?style=flat-square&label=build" alt="Build Status" /></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square" alt="MIT License" /></a>
+  <img src="https://img.shields.io/badge/Flutter-3.47.9-02569B?style=flat-square&logo=flutter" alt="Flutter 3.47.9" />
+  <img src="https://img.shields.io/badge/platform-Android%20%7C%20iOS%20%7C%20iPadOS-lightgrey?style=flat-square" alt="Platform" />
+  <a href="https://github.com/locvel/voite/stargazers"><img src="https://img.shields.io/github/stars/locvel/voite?style=flat-square&color=yellow" alt="GitHub stars" /></a>
 </p>
 
 <p align="center">

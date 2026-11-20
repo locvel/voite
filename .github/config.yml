@@ -1,0 +1,18 @@
+# Configuration for GitHub Apps and integrations
+
+# Disable blank issues (force users to use templates)
+blank_issues_enabled: false
+
+# Contact links for issues
+contact_links:
+  - name: 💬 Discussions
+    url: https://github.com/locvel/voite/discussions
+    about: Ask questions and discuss features with the community
+  
+  - name: 🔒 Security Issue
+    url: https://github.com/locvel/voite/security/advisories/new
+    about: Report security vulnerabilities privately
+  
+  - name: 📧 Email Support
+    url: mailto:hello.locvel@gmail.com
+    about: Contact the team directly for private inquiries

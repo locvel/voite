@@ -1,0 +1,14 @@
+# Code owners for Voite repository
+# These users/teams will be automatically requested for review when someone opens a pull request
+
+# Default owner for everything in the repo
+* @locvel
+
+# Specific ownership for critical areas
+/ios/ @locvel
+/android/ @locvel
+/lib/core/ @locvel
+/lib/data/ @locvel
+/.github/ @locvel
+/docs/PRIVACY_SECURITY_BASELINE.md @locvel
+/docs/privacy-policy.md @locvel
